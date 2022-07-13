@@ -1,24 +1,67 @@
-# json-server-base
+BaseURL: https://caregiver-and-pets.herokuapp.com
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Capstones do Q2.
+* São os pontos obrigatórios para a API
 
-## Endpoints
+POST: /register
+ *Email/Password
+  return: accessToken / user
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
+Logar usuário 
+POST: /login
+ *Email/Password
+  return: accessToken / user
 
-### Cadastro
+Cadastrar pedido pendente 
+** Necessita autenticação
+POST: /request
+ *type/name/userId/[lista de pets do dono]
 
-POST /register <br/>
-POST /signup <br/>
-POST /users
+Cadastrar pedido aceito 
+** Necessita autenticação
+POST: /accepted
+ *type/name/userId/[lista de pets do dono]
 
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
+Buscar Cargiver
+** Necessita autenticação
+GET: /users
 
+Buscar Pedidos do Caregiver
+** Necessita autenticação
+GET: /users/{ID_DO_CAREGIVER}?_embed=request
 
-### Login
+Buscar Pedidos aceitos do Caregiver
+** Necessita autenticação
+GET: /users/{ID_DO_CAREGIVER}?_embed=acceptedBaseURL: https://caregiver-and-pets.herokuapp.com
 
-POST /login <br/>
-POST /signin
+* São os pontos obrigatórios para a API
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+POST: /register
+ *Email/Password
+  return: accessToken / user
+
+Logar usuário 
+POST: /login
+ *Email/Password
+  return: accessToken / user
+
+Cadastrar pedido pendente 
+** Necessita autenticação
+POST: /request
+ *type/name/userId/[lista de pets do dono]
+
+Cadastrar pedido aceito 
+** Necessita autenticação
+POST: /accepted
+ *type/name/userId/[lista de pets do dono]
+
+Buscar Cargiver
+** Necessita autenticação
+GET: /users
+
+Buscar Pedidos do Caregiver
+** Necessita autenticação
+GET: /users/{ID_DO_CAREGIVER}?_embed=request
+
+Buscar Pedidos aceitos do Caregiver
+** Necessita autenticação
+GET: /users/{ID_DO_CAREGIVER}?_embed=accepted
