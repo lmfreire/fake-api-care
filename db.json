@@ -1,0 +1,248 @@
+{
+  "users": [
+    {
+      "email": "cargiver@mail.com",
+      "password": "$2a$10$HDreu9r.emk88BbY2ht1aeGDvZAu9tLEax7LwrcndunoBA8ljE4VO",
+      "name": "cargiver",
+      "telephone": "11111111111",
+      "address": "Avenida Kenzie n87",
+      "type_house": "Apartamento",
+      "food": "true",
+      "istraining": "false",
+      "price": "20,00",
+      "detail": "gosto de animais",
+      "assessments": "4",
+      "number_assessments": "15",
+      "url_img": "https://www.nicepng.com/png/full/522-5227512_user-image-boneco-homem.png",
+      "id": 1
+    },
+    {
+      "email": "cargiverOutro@mail.com",
+      "password": "$2a$10$6m3mCcZsXApm3RbucdgCme.lMDy07Pc8PbolO.bO5JvxXuR1ojaQe",
+      "name": "cargiver Outro",
+      "telephone": "11111111111",
+      "address": "Avenida Kenzie n89",
+      "type_house": "Casa",
+      "food": "false",
+      "istraining": "true",
+      "price": "20,00",
+      "detail": "gosto de animais",
+      "assessments": "4",
+      "number_assessments": "15",
+      "url_img": "https://www.nicepng.com/png/full/522-5227512_user-image-boneco-homem.png",
+      "id": 2
+    },
+    {
+      "email": "cargiverMaisUm@mail.com",
+      "password": "$2a$10$kVAMpxVd5c8ebM3L5bSdQulf1hkEZNEQAM6CnOfccGmHBoek7Zu9m",
+      "name": "cargiver Outro mais outro",
+      "telephone": "11111111111",
+      "address": "Avenida Kenzie n99",
+      "type_house": "Casa",
+      "food": "true",
+      "istraining": "true",
+      "price": "20,00",
+      "detail": "gosto de animais",
+      "assessments": "4",
+      "number_assessments": "15",
+      "url_img": "https://www.nicepng.com/png/full/522-5227512_user-image-boneco-homem.png",
+      "id": 3
+    }
+  ],
+  "request": [
+    {
+      "email": "kenzinho@mail.com",
+      "name": "kenzinho",
+      "telephone": "11111111111",
+      "initial_date": "11/08/2022",
+      "final_date": "15/08/2022",
+      "age": 38,
+      "userId": 1,
+      "pet": [
+        {
+          "name": "Augusto",
+          "type": "Gato",
+          "age": 3,
+          "breed": "marrom",
+          "physical_shape": "Pequeno",
+          "note": "Não utiliza muito bem a caixa de areia",
+          "userId": 1,
+          "id": 1
+        },
+        {
+          "name": "Frede",
+          "type": "Gato",
+          "age": 3,
+          "breed": "preto",
+          "physical_shape": "medio",
+          "note": "Não utiliza muito bem a caixa de areia",
+          "userId": 1,
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "email": "kenziek@email.com",
+      "name": "Kenzie kenzie",
+      "telephone": "11111111111",
+      "initial_date": "11/08/2022",
+      "final_date": "15/08/2022",
+      "age": 28,
+      "userId": 2,
+      "pet": [
+        {
+          "name": "Marcos",
+          "type": "chacorro",
+          "age": 3,
+          "breed": "preto",
+          "physical_shape": "grande",
+          "note": "Não gosta de lugares pequenos",
+          "userId": 2,
+          "id": 3
+        },
+        {
+          "name": "Brutos",
+          "type": "chacorro",
+          "age": 3,
+          "breed": "preto",
+          "physical_shape": "grande",
+          "note": "Gosta de brincar com a presa",
+          "userId": 2,
+          "id": 4
+        },
+        {
+          "name": "Lila",
+          "type": "chacorro",
+          "age": 3,
+          "breed": "pinscher",
+          "physical_shape": "pequena",
+          "note": "Coloca ordem na casa",
+          "userId": 2,
+          "id": 5
+        }
+      ],
+      "id": 2
+    },
+    {
+      "email": "kenziekK@email.com",
+      "name": "Kenzie com dois K",
+      "telephone": "11111111111",
+      "initial_date": "11/08/2022",
+      "final_date": "15/08/2022",
+      "age": 28,
+      "userId": 2,
+      "pet": [
+        {
+          "name": "tuco",
+          "type": "Tucano",
+          "age": 3,
+          "breed": "Passaro",
+          "physical_shape": "pequena",
+          "note": "Gosta de cantar e bicar maos",
+          "userId": 3,
+          "id": 6
+        }
+      ],
+      "id": 3
+    },
+    {
+      "email": "kenziekK@email.com",
+      "telephone": "11111111111",
+      "name": "Kenzie com dois K",
+      "initial_date": "11/08/2022",
+      "final_date": "15/08/2022",
+      "age": 28,
+      "userId": 2,
+      "pet": [
+        {
+          "name": "tuco",
+          "type": "Tucano",
+          "age": 3,
+          "breed": "Passaro",
+          "physical_shape": "pequena",
+          "note": "Gosta de cantar e bicar maos",
+          "userId": 3,
+          "id": 6
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "accepted": [
+    {
+      "email": "kenziek@email.com",
+      "name": "Kenzie kenzie",
+      "telephone": "11111111111",
+      "initial_date": "11/08/2022",
+      "final_date": "15/08/2022",
+      "age": 28,
+      "userId": 2,
+      "pet": [
+        {
+          "name": "Marcos",
+          "type": "chacorro",
+          "age": 3,
+          "breed": "preto",
+          "physical_shape": "grande",
+          "note": "Não gosta de lugares pequenos",
+          "userId": 2,
+          "id": 3
+        },
+        {
+          "name": "Brutos",
+          "type": "chacorro",
+          "age": 3,
+          "breed": "preto",
+          "physical_shape": "grande",
+          "note": "Gosta de brincar com a presa",
+          "userId": 2,
+          "id": 4
+        },
+        {
+          "name": "Lila",
+          "type": "chacorro",
+          "age": 3,
+          "breed": "pinscher",
+          "physical_shape": "pequena",
+          "note": "Coloca ordem na casa",
+          "userId": 2,
+          "id": 5
+        }
+      ],
+      "id": 1
+    },
+    {
+      "email": "kenzinho@mail.com",
+      "name": "kenzinho",
+      "telephone": "11111111111",
+      "initial_date": "11/08/2022",
+      "final_date": "15/08/2022",
+      "age": 38,
+      "userId": 1,
+      "pet": [
+        {
+          "name": "Augusto",
+          "type": "Gato",
+          "age": 3,
+          "breed": "marrom",
+          "physical_shape": "Pequeno",
+          "note": "Não utiliza muito bem a caixa de areia",
+          "userId": 1,
+          "id": 1
+        },
+        {
+          "name": "Frede",
+          "type": "Gato",
+          "age": 3,
+          "breed": "preto",
+          "physical_shape": "medio",
+          "note": "Não utiliza muito bem a caixa de areia",
+          "userId": 1,
+          "id": 2
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
